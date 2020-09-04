@@ -1,0 +1,236 @@
+header{
+    min-height: 60px;
+    margin-top: 0px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    border-bottom: 1px solid #ccc;
+    background:rgb(237, 200, 255);
+    height: 14%;
+    z-index: 2;
+}
+
+.topLogo{
+    width: 11%;
+    margin-left: 1cm;
+    margin-top: 0.5cm;
+}
+
+.cabecalho{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho li{
+    display: inline;
+}
+
+.naveg{
+    position: relative;
+    left: 30%;
+    top: -15px;
+    padding: 0px 40px 0px 40px;
+    text-decoration: none;
+    color: rgb(168, 81, 138);
+    font-family: Sans-serif;
+    font-size: 40px;
+    background: rgb(237, 200, 255);
+    border: 3px solid rgb(168, 81, 138);
+    border-top: none ;
+    border-bottom: none;
+}
+
+.naveg1{
+    position: relative;
+    left: 30%;
+    top: -15px;
+    padding: 0px 40px 0px 40px;
+    text-decoration: none;
+    color: rgb(168, 81, 138);
+    font-family: Sans-serif;
+    font-size: 40px;
+    background: rgb(237, 200, 255);
+    border: 3px solid rgb(168, 81, 138);
+    border-top: none ;
+    border-bottom: none;
+    border-left: none;
+}
+
+main .bloco1{
+    position: relative;
+    height: 200px;
+    width: 34%;
+    margin-top: 330px;
+    margin-left: 40px;
+    background: rgb(237, 200, 255);
+}
+
+.bloco1{
+    float:left;
+    padding: 5%;
+    border: 20cm;
+}
+
+.subtitulo{
+    position: absolute;
+    top: -10px;
+    left: 20px;
+    font-size: 44px;
+    font-weight: lighter;
+    font-family: Sans-serif;
+}
+
+.descricaoGenerica{
+    position: absolute;
+    top: 150px;
+    left: 20px;
+    font-size: 21px;
+    color: rgb(114, 113, 115);
+    font-family: Sans-serif;
+}
+
+.agendeHorario{
+    position: absolute;
+    top: 250px;
+    left: 20px;
+    border: 0px;
+    width: 53%;
+    height: 18%;
+    color: white;
+    font-family: Sans-serif;
+    font-size: 20px;
+    background-color: rgb(168, 81, 138);
+}
+
+main .bloco2{
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    height: 600px;
+    width: 750px;
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+    background: rgb(168, 81, 138);
+}
+
+.meditacao{
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    width: 835px;
+    height: 650px;
+    margin-left: -35%;
+    margin-top: -15%;
+}
+
+.mapa{
+    border-radius: 100%;
+    width: 600px;
+    height: 600px;
+    position: relative;
+    top: 850px;
+    left: -550px;
+}
+
+.descricaolocalizacao{
+    position: absolute;
+    top: 900px;
+    left: 750px;
+    font-family: sans-serif;    
+}
+
+.descricaolocalizacao h4{
+    font-size: 55px;
+}
+
+.fundoroxo{
+    position: absolute;
+    background-color: rgb(168, 81, 138);
+    max-width: 30%;
+    border: 0px;
+    top: 0px;
+    left: 450px;
+    color: white;
+}
+
+.descricaolocalizacao p{
+    color: rgb(114, 113, 115);
+    font-size: 25px;
+}
+
+.descricaolocalizacao button{
+    background: rgb(168, 81, 138);
+    color: white;
+    position: absolute;
+    width: 53%;
+    height: 18%;
+    font-size: 20px;
+    border: 0px;
+}
+
+footer{
+    position: absolute;
+    top: 250%;
+    left: 0%;
+    background: rgb(168, 81, 138);
+    height: 54%;
+    width: 100%;
+}
+
+.bottomLogo{
+    margin-top: 8.2%;
+    width: 25%;
+    margin-left: 5%;
+}
+
+.rodape li{
+    display: inline;
+    color: white;
+    font-size: 24px;
+    font-family: Sans-serif;
+}
+
+.twitter{
+    position: absolute;
+    top: 7%;
+    right: 0;
+}
+
+.facebook{
+    position: absolute;
+    top: 22%;
+    right: 0;
+}
+
+.telefone{
+    position: absolute;
+    top: 37%;
+    right: 0;
+}
+
+.textogenerico{
+    position: absolute;
+    top: 60%;
+    font-weight: 300;
+    right: 0;
+}
+
+.cidade{
+    position: absolute;
+    top: 70%;
+    right: 0;
+}
+
+.owner{
+    position: absolute;
+    bottom: 10%;
+    right: 33%;
+}
+
+.destaque{
+    font-weight: bold;
+    color: rgb(255, 254, 254);
+}
