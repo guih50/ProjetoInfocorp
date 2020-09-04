@@ -1,0 +1,172 @@
+header{
+    min-height: 60px;
+    margin-top: 0px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    border-bottom: 1px solid #ccc;
+    background:rgb(237, 200, 255);
+    height: 14%;
+    z-index: 2;
+}
+
+.topLogo{
+    width: 11%;
+    margin-left: 1cm;
+    margin-top: 0.5cm;
+}
+
+.cabecalho{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho li{
+    display: inline;
+}
+
+.naveg{
+    position: relative;
+    left: 30%;
+    top: -15px;
+    padding: 0px 40px 0px 40px;
+    text-decoration: none;
+    color: rgb(168, 81, 138);
+    font-family: Sans-serif;
+    font-size: 40px;
+    background: rgb(237, 200, 255);
+    border: 3px solid rgb(168, 81, 138);
+    border-top: none ;
+    border-bottom: none;
+}
+
+.naveg1{
+    position: relative;
+    left: 30%;
+    top: -15px;
+    padding: 0px 40px 0px 40px;
+    text-decoration: none;
+    color: rgb(168, 81, 138);
+    font-family: Sans-serif;
+    font-size: 40px;
+    background: rgb(237, 200, 255);
+    border: 3px solid rgb(168, 81, 138);
+    border-top: none ;
+    border-bottom: none;
+    border-left: none;
+}
+
+.entrada{
+    position: absolute;
+    top: 150px;
+    left: 55%;
+    font-family: sans-serif;
+    color: rgb(168, 81, 138);
+    font-size: 25px;
+    font-weight: bolder;
+    line-height: 0;
+}
+
+.fotinha{
+    position: absolute;
+    top: 170px;
+    left: 70px;
+    border-radius: 100%;
+    width: 430px;
+    height: 430px;
+}
+
+.input1{
+    padding: 0.3em;
+    border-color: 1px gray;
+    border-style: solid;
+    width: 530px;
+    height: 30px;
+}
+
+.inputmensagem{
+    padding: 0.3em;
+    width: 530px;
+    height: 100px;
+    border-color: 1px gray;
+    border-style: solid;
+}
+
+#botaoenviar{
+    position: relative;
+    color: white;
+    font-size: 60px;
+    background-color: rgb(168, 81, 138);
+    border: 0;
+    top: 10px;
+    left: 160px;
+    border-radius: 5%;
+}
+
+
+footer{
+    position: absolute;
+    top: 120%;
+    left: 0%;
+    background: rgb(168, 81, 138);
+    height: 54%;
+    width: 100%;
+}
+
+.bottomLogo{
+    margin-top: 8.2%;
+    width: 25%;
+    margin-left: 5%;
+}
+
+.rodape li{
+    display: inline;
+    color: white;
+    font-size: 24px;
+    font-family: Sans-serif;
+}
+
+.twitter{
+    position: absolute;
+    top: 7%;
+    right: 0;
+}
+
+.facebook{
+    position: absolute;
+    top: 22%;
+    right: 0;
+}
+
+.telefone{
+    position: absolute;
+    top: 37%;
+    right: 0;
+}
+
+.textogenerico{
+    position: absolute;
+    top: 60%;
+    font-weight: 300;
+    right: 0;
+}
+
+.cidade{
+    position: absolute;
+    top: 70%;
+    right: 0;
+}
+
+.owner{
+    position: absolute;
+    bottom: 10%;
+    right: 33%;
+}
+
+.destaque{
+    font-weight: bold;
+    color: rgb(255, 254, 254);
+}
