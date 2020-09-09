@@ -1,3 +1,7 @@
+body{
+    font-family: sans-serif;
+}
+
 header{
     min-height: 60px;
     margin-top: 0px;
@@ -7,9 +11,20 @@ header{
     right: 0;
     left: 0;
     border-bottom: 1px solid #ccc;
-    background:rgb(237, 200, 255);
     height: 14%;
     z-index: 2;
+}
+
+.colorEscuro{
+    color:rgb(168, 81, 138);
+}
+
+.fundoClaro{
+    background: rgb(237, 200, 255);
+}
+
+.fundoEscuro{
+    background: rgb(168, 81, 138);
 }
 
 .topLogo{
@@ -19,7 +34,6 @@ header{
 }
 
 .cabecalho{
-    list-style-type: none;
     margin: 0;
     padding: 0;
 }
@@ -30,31 +44,27 @@ header{
 
 .naveg{
     position: relative;
-    left: 30%;
-    top: -15px;
-    padding: 0px 40px 0px 40px;
+    left: 28%;
+    top: -10px;
+    padding: 0px 80px 0px 80px;
     text-decoration: none;
-    color: rgb(168, 81, 138);
-    font-family: Sans-serif;
-    font-size: 40px;
-    background: rgb(237, 200, 255);
+    font-size: 30px;
     border: 3px solid rgb(168, 81, 138);
+    height: 45px;
     border-top: none ;
     border-bottom: none;
 }
 
 .naveg1{
     position: relative;
-    left: 30%;
-    top: -15px;
-    padding: 0px 40px 0px 40px;
+    left: 28%;
+    top: -10px;
+    padding: 0px 60px 0px 60px;
     text-decoration: none;
-    color: rgb(168, 81, 138);
-    font-family: Sans-serif;
-    font-size: 40px;
-    background: rgb(237, 200, 255);
+    font-size: 30px;
     border: 3px solid rgb(168, 81, 138);
     border-top: none ;
+    height: 45px;
     border-bottom: none;
     border-left: none;
 }
@@ -65,7 +75,6 @@ main .bloco1{
     width: 34%;
     margin-top: 330px;
     margin-left: 40px;
-    background: rgb(237, 200, 255);
 }
 
 .bloco1{
@@ -80,7 +89,6 @@ main .bloco1{
     left: 20px;
     font-size: 44px;
     font-weight: lighter;
-    font-family: Sans-serif;
 }
 
 .descricaoGenerica{
@@ -89,7 +97,6 @@ main .bloco1{
     left: 20px;
     font-size: 21px;
     color: rgb(114, 113, 115);
-    font-family: Sans-serif;
 }
 
 .agendeHorario{
@@ -100,9 +107,7 @@ main .bloco1{
     width: 53%;
     height: 18%;
     color: white;
-    font-family: Sans-serif;
     font-size: 20px;
-    background-color: rgb(168, 81, 138);
 }
 
 main .bloco2{
@@ -113,7 +118,6 @@ main .bloco2{
     width: 750px;
     border-bottom: 1px solid #ccc;
     padding: 20px;
-    background: rgb(168, 81, 138);
 }
 
 .meditacao{
@@ -124,6 +128,8 @@ main .bloco2{
     height: 650px;
     margin-left: -35%;
     margin-top: -15%;
+    object-fit: cover;
+    object-position: 20% 70%;
 }
 
 .mapa{
@@ -139,7 +145,6 @@ main .bloco2{
     position: absolute;
     top: 900px;
     left: 750px;
-    font-family: sans-serif;    
 }
 
 .descricaolocalizacao h4{
@@ -148,7 +153,6 @@ main .bloco2{
 
 .fundoroxo{
     position: absolute;
-    background-color: rgb(168, 81, 138);
     max-width: 30%;
     border: 0px;
     top: 0px;
@@ -162,7 +166,6 @@ main .bloco2{
 }
 
 .descricaolocalizacao button{
-    background: rgb(168, 81, 138);
     color: white;
     position: absolute;
     width: 53%;
@@ -175,7 +178,6 @@ footer{
     position: absolute;
     top: 250%;
     left: 0%;
-    background: rgb(168, 81, 138);
     height: 54%;
     width: 100%;
 }
@@ -190,7 +192,6 @@ footer{
     display: inline;
     color: white;
     font-size: 24px;
-    font-family: Sans-serif;
 }
 
 .twitter{
